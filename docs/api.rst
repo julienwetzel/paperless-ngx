@@ -11,13 +11,15 @@ available filters and ordering fields.
 
 .. _Django REST Framework: http://django-rest-framework.org/
 
-The API provides 5 main endpoints:
+The API provides 7 main endpoints:
 
 *   ``/api/documents/``: Full CRUD support, except POSTing new documents. See below.
 *   ``/api/correspondents/``: Full CRUD support.
 *   ``/api/document_types/``: Full CRUD support.
 *   ``/api/logs/``: Read-Only.
 *   ``/api/tags/``: Full CRUD support.
+*   ``/api/mail_accounts/``: Full CRUD support.
+*   ``/api/mail_rules/``: Full CRUD support.
 
 All of these endpoints except for the logging endpoint
 allow you to fetch, edit and delete individual objects

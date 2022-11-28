@@ -130,8 +130,8 @@ IMAP (Email)
 
 You can tell paperless-ngx to consume documents from your email accounts.
 This is a very flexible and powerful feature, if you regularly received documents
-via mail that you need to archive. The mail consumer can be configured by using the
-admin interface in the following manner:
+via mail that you need to archive. The mail consumer can be configured via the frontend
+settings (/settings/mail) in the following manner:
 
 1.  Define e-mail accounts.
 2.  Define mail rules for your account.
